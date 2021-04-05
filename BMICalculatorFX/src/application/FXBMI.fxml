@@ -36,7 +36,7 @@
             <ToggleGroup fx:id="Unit" />
          </toggleGroup>
       </RadioButton>
-      <RadioButton fx:id="metricRadioButton" mnemonicParsing="false" onAction="#radioButtonChanged" text="Metric (kg, m)" toggleGroup="$Unit" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <RadioButton fx:id="metricRadioButton" mnemonicParsing="false" onAction="#radioButtonChanged" text="Metric (kg, cm)" toggleGroup="$Unit" GridPane.columnIndex="1" GridPane.rowIndex="3" />
       <TextField fx:id="bmiTextField" disable="true" editable="false" focusTraversable="false" prefHeight="25.0" prefWidth="70.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
       <Label text="BMI" GridPane.rowIndex="4" />
       <TextField fx:id="categoryTextField" disable="true" editable="false" focusTraversable="false" GridPane.columnIndex="1" GridPane.rowIndex="5" />
